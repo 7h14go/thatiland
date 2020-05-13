@@ -1,12 +1,51 @@
+/*Soft reset do CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-    background-image: url('../img/background-img2.jpg') ;
-    background-size: auto 100vh;
+    background: url('../img/background-nuvens.jpg');
+    background-size: 100vw 100vh;
     font-family: Arial;
     height: 100vh;
+    font-size: 12px;
   }
-  
+
+/*Se a tela tiver pelo menos 400px vai carregar estes estilos*/
+@media(min-width: 400px){
+ body{
+   font-size: 14px;
+ }
+}
+
+/*Se a tela tiver pelo menos 600px vai carregar estes estilos*/
+@media(min-width: 600px){
+  body{
+    font-size: 18px;
+  }
+}
+
+/*Se a tela tiver pelo menos 600px vai carregar estes estilos*/
+@media(min-width: 1200px){
+  body{
+    font-size: 20px;
+  }
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .menu{
     background-color: white;
+    position: fixed;    
+    width: 100vw;
+    top: 0px;
   }
   
   .menu li{
@@ -18,6 +57,11 @@ body{
     justify-content: space-around;
   }
   
+.menu a{
+  display: block;
+  padding: 10px 20px;
+}
+
   a{
     color: teal;
     text-decoration: none;
@@ -29,14 +73,46 @@ body{
   
   .site-subtitle,
   .site-title{
-    color: whitesmoke;
+    color: white;
     text-align: center;  
+    filter: drop-shadow(5px -2px 5px rgb(61, 60, 60))
   }
   
 .site-title{
+  font-family: cursive;
+  font-size: 4em;
   margin-top: 50px;
 }
 
 .site-subtitle{
+    font-family: monospace;
     font-style: italic;
+}
+
+.img-portfolio{
+  width: 180px;
+  height: 180px;
+}
+
+.glass {
+  /*background-color: rgba(135,206,250,0.3);*/
+  background-color: rgba(192,217,217,0.3);
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  height: 300px;
+  width: 70vw;
+}
+
+.siteIcones {
+  width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icone {
+  height: 30px;
 }
