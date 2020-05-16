@@ -414,6 +414,11 @@ a:hover{
 }
 */
 
+.contato .conteudo{
+  text-align: center;
+  font-size: 1.3em;
+}
+
 .site-icones {
   width: 100px;
   margin-left: auto;
@@ -428,4 +433,15 @@ a:hover{
   margin-left: 10px;
   margin-right: 10px;
   transition: text-shadow 1s;
+}
+
+.rodape{
+  font-size: 0.8em;
+  text-align: center;  
+  height: 33vh;
+  width: 100vw;
+  vertical-align: bottom;
+  display: table-cell;
+  
+  
 }
