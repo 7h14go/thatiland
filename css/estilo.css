@@ -192,8 +192,8 @@ a:hover{
 @media (min-width: 300px){
   .sobre .avatar{
     float: none;
-    margin-left: 2em;
-    
+    margin-left: 0;    
+    text-align: center;    
   }
 }
 
@@ -221,7 +221,7 @@ a:hover{
   .sobre .avatar img{  
     object-position: center top;
     width: 250px;
-    height: 250px;    
+    height: 250px;
   }
 }
 
