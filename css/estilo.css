@@ -462,3 +462,13 @@ a:hover{
   
   
 }
+
+.down-arrow {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 38px;
+}
+
+.down-arrow i{
+  font-size: 2em;
+}
