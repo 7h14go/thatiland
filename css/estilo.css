@@ -288,7 +288,7 @@ a:hover{
 @media(min-width: 880px)
 {
   .sobre .glass,
-  .contato .linha,
+  .contato .glass,
   .portifolio .glass{
     height: 80vh;
     width: 90vw;  
@@ -314,6 +314,7 @@ a:hover{
   }
 }
 
+/*
 @media (min-width: 560px){
   .sobre .linha,
   .contato .linha,
@@ -321,7 +322,7 @@ a:hover{
     height: 85vh;
     width: 100vw;  
   }
-}
+}*/
 
 .sobre .linha,
 .contato .linha,
@@ -372,6 +373,21 @@ a:hover{
   transform:scale(1.2) rotate(360deg);
   opacity: .8;
 }
+@media (min-height: 300px){
+  .img-portfolio{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@media (min-height: 600px){
+  .img-portfolio{
+    width: 240px;
+    height: 240px;
+  }
+}
+
 
 /*Não estão sendo usados as classes .flip-card e .card*/
 .flip-card{
