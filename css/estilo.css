@@ -40,6 +40,22 @@ body{
 
 }
 
+@media(min-width: 300px)
+{
+  .contato .icon{
+    font-size: 0.8em;
+   
+   }
+}
+
+@media(min-width: 500px)
+{
+  .contato .icon{
+    font-size: 1em;
+   
+   }
+}
+
 .contato a{
   color: #000000;
   font-size: 4em;
@@ -434,6 +450,8 @@ a:hover{
 .contato .conteudo{
   text-align: center;
   font-size: 1.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .site-icones {
