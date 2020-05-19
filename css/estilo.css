@@ -8,6 +8,8 @@
 body{
     background: url('../img/background-nuvens.jpg');
     background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Bellota Text', cursive;/*Fonte do GOOGLE*/
     height: 100vh;
     font-size: 12px;
@@ -476,15 +478,13 @@ a:hover{
   height: 33vh;
   width: 100vw;
   vertical-align: bottom;
-  display: table-cell;
-  
-  
+  display: table-cell;  
 }
 
 .down-arrow {
   position: absolute;
   bottom: 0;
-  margin-bottom: 38px;
+  margin-bottom: 0.5em;
 }
 
 .down-arrow i{
